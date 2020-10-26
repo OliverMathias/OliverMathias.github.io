@@ -1,300 +1,449 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta name="description" content="Cocoon -Portfolio">
-    <meta name="keywords" content="Cocoon , Portfolio">
-    <meta name="author" content="Pharaohlab">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- ========== Title ========== -->
-    <title> Cocoon -Portfolio</title>
-    <!-- ========== Favicon Ico ========== -->
-    <!--<link rel="icon" href="fav.ico">-->
-    <!-- ========== STYLESHEETS ========== -->
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fonts Icon CSS -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/et-line.css" rel="stylesheet">
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
-    <!-- Carousel CSS -->
-    <link href="assets/css/slick.css" rel="stylesheet">
-    <!-- Magnific-popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-</head>
-<body>
-<div class="loader">
-    <div class="loader-outter"></div>
-    <div class="loader-inner"></div>
-</div>
+  <head>
+    <title>New Dimension Medical</title>
+    <meta charset="utf-8">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<div class="body-container container-fluid">
-    <a class="menu-btn" href="javascript:void(0)">
-        <i class="ion ion-grid"></i>
-    </a>
-    <div class="row justify-content-center">
-        <!--=================== side menu ====================-->
-        <div class="col-lg-2 col-md-3 col-12 menu_block">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
 
-            <!--logo -->
-            <div class="logo_box">
-                <a href="#">
-                    <img src="assets/img/logo.png" alt="cocoon">
-                </a>
-            </div>
-            <!--logo end-->
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 
-            <!--main menu -->
-            <div class="side_menu_section">
-                <ul class="menu_nav">
-                    <li class="active">
-                        <a href="index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="about.html">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="services.html">
-                            Services
-                        </a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">
-                            Portfolio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!--main menu end -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-            <!--filter menu -->
-            <div class="side_menu_section">
-                <h4 class="side_title">filter by:</h4>
-                <ul  id="filtr-container"  class="filter_nav">
-                    <li  data-filter="*" class="active"><a href="javascript:void(0)" >all</a></li>
-                    <li data-filter=".branding"> <a href="javascript:void(0)">branding</a></li>
-                    <li data-filter=".design"><a href="javascript:void(0)">design</a></li>
-                    <li data-filter=".photography"><a href="javascript:void(0)">photography</a></li>
-                    <li data-filter=".architecture"><a href="javascript:void(0)">architecture</a></li>
-                </ul>
-            </div>
-            <!--filter menu end -->
+    <link rel="stylesheet" href="css/aos.css">
 
-            <!--social and copyright -->
-            <div class="side_menu_bottom">
-                <div class="side_menu_bottom_inner">
-                    <ul class="social_menu">
-                        <li>
-                            <a href="#"> <i class="ion ion-social-pinterest"></i> </a>
-                        </li>
-                        <li>
-                            <a href="#"> <i class="ion ion-social-facebook"></i> </a>
-                        </li>
-                        <li>
-                            <a href="#"> <i class="ion ion-social-twitter"></i> </a>
-                        </li>
-                        <li>
-                            <a href="#"> <i class="ion ion-social-dribbble"></i> </a>
-                        </li>
-                    </ul>
-                    <div class="copy_right">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </div>
-                </div>
-            </div>
-            <!--social and copyright end -->
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-        </div>
-        <!--=================== side menu end====================-->
-
-        <!--=================== content body ====================-->
-        <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
-            <div class="portfolio">
-                <div class="container-fluid">
-                    <!--=================== masaonry portfolio start====================-->
-                    <div class="grid img-container justify-content-center no-gutters">
-                        <div class="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
-                        <div class="grid-item branding  col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port1.png" title="project name 1">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port1.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  branding architecture  col-sm-12 col-md-6">
-                            <a href="assets/img/portfolio/home-port2.png" title="project name 2">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port2.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  design col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port3.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port3.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  photography design col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port4.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port4.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  branding photography  col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port5.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port5.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item   architecture design col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port6.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port6.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  photography architecture col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port7.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port7.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  branding design  col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port8.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port8.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item architecture  col-sm-12 col-md-6 col-lg-6">
-                            <a href="assets/img/portfolio/home-port9.png" title="project name 4">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port9.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
 
-                    <!--=================== masaonry portfolio end====================-->
-                </div>
-            </div>
-        </div>
-        <!--=================== content body end ====================-->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">New Dimension Medical</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+
+          <!--
+          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="portfolio.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                <a class="dropdown-item" href="portfolio-single.html">Portfolio Single</a>
+              </div>
+          </li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Case Studies</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Get in touch</span></a></li>
+        -->
+        </ul>
+      </div>
     </div>
-</div>
+  </nav>
+    <!-- END nav -->
+
+    <!-- <div class="js-fullheight"> -->
+    <div class="hero-wrap js-fullheight">
+      <div class="overlay"></div>
+      <div id="particles-js"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Bringing advanced healthcare <strong>Solutions</strong> to advanced healthcare problems</h1>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-light">
+    <section class="ftco-section-featured ftco-animate">
+      <div class="container-fluid" data-scrollax-parent="true">
+        <div class="row no-gutters d-flex align-items-center" data-scrollax=" properties: { translateY: '-30%'}">
+
+          <div class="col-md-3 mb-3">
+            <a href="#" class="featured-img">
+              <div class="text-1 p-4 d-flex align-items-center">
+                <h3>Torso Print<br><span class="tag">Prusa MMU</span></h3>
+              </div>
+              <img src="images/torso.jpg" class="img-fluid" alt="">
+              <!-- <div class="text p-4 d-flex align-items-center">
+                <div class="user d-flex align-items-center">
+                  <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
+                  <h3>John Bruce <br><span class="position">Designer</span></h3>
+                </div>
+              </div>-->
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row no-gutters">
+              <div class="col-md-12">
+                <div class="row no-gutters d-flex align-items-end">
+
+                  <div class="col-md-8">
+                    <a href="#" class="featured-img">
+                      <div class="text-1 p-4 d-flex align-items-center">
+                        <h3>Skull Print<br><span class="tag">Ultimaker</span></h3>
+                      </div>
+                      <img src="images/skull.jpg" class="img-fluid" alt="">
+
+                    </a>
+                  </div>
+
+                  <div class="col-md-4">
+                    <a href="#" class="featured-img">
+                      <div class="text-1 p-4 d-flex align-items-center">
+                        <h3>Single Tissue Brain<br><span class="tag">Ender 3</span></h3>
+                      </div>
+                      <img src="images/brain_single.JPG" class="img-fluid" alt="">
+
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="row no-gutters d-flex align-items-start">
+                  <div class="col-md-8">
+                    <a href="#" class="featured-img">
+                      <div class="text-1 p-4 d-flex align-items-center">
+                        <h3>Print Evolution<br><span class="tag">Multiple Printers</span></h3>
+                      </div>
+                      <img src="images/family.JPG" class="img-fluid" alt="">
+
+                    </a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#" class="featured-img">
+                      <div class="text-1 p-4 d-flex align-items-center">
+                        <h3>Segmented Spine<br><span class="tag">Ultimaker </span></h3>
+                      </div>
+                      <img src="images/spine.jpg" class="img-fluid" alt="">
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#" class="featured-img">
+              <div class="text-1 p-4 d-flex align-items-center">
+                <h3>First and Recent Print<br><span class="tag">Ender 3 & Prusa</span></h3>
+              </div>
+              <img src="images/hands.JPG" class="img-fluid" alt="">
+
+            </a>
+          </div>
+
+        </div>
+        <div class="row mt-5 d-flex justify-content-center">
+          <div class="col-md-8 text-center heading-section ftco-animate">
+            <h2 class="h1"> <strong class="px-3">New Dimension Medical Research Group</strong> strives to be the leader in advancing medical technology</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
 
 
-<!-- jquery -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- bootstrap -->
-<script src="assets/js/popper.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
-<!--slick carousel -->
-<script src="assets/js/slick.min.js"></script>
-<!--Portfolio Filter-->
-<script src="assets/js/imgloaded.js"></script>
-<script src="assets/js/isotope.js"></script>
-<!-- Magnific-popup -->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<!--Counter-->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!-- WOW JS -->
-<script src="assets/js/wow.min.js"></script>
-<!-- Custom js -->
-<script src="assets/js/main.js"></script>
-</body>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-6 text-center heading-section ftco-animate">
+            <span class="subheading">Our Services</span>
+            <h2 class="mb-4">Experts in applying today's cutting edge technology</h2>
+            <p>We make use of technology on the cutting edge of science to improve the lives of patients everywhere</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-terminal"></span></div></div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Artificial Intelligence</h3>
+                <p>With the use of the foremost AI implementations and architectures we're building a future where the power of technology can be leveraged to the fullest.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="iconify" data-icon="mdi-printer-3d-nozzle" data-inline="false" style="color: white;" data-width="50" data-height="50"></span></div></div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">3D Printing</h3>
+                <p>We've developed algorithms and processes that allow for 1:1 scale, 0.001mm accuracy anatomical prints on consumer hardware.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-wrench"></span></div></div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Hardware Development</h3>
+                <p>With our fast iteration pipeline and knowledge of consumer grade hardware, we are able to implment cost effective hardware and machines to support the highest quality healthcare.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-pie-chart"></span></div></div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Data Analytics</h3>
+                <p>Our familiarity of AWS and toolkit of analysis algorithms allow us to gleen insights from even the largest amounts of data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <section>
+    <div class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Team</span>
+            <h2 class="mb-4">Our Team</h2>
+            <p>Our diverse team, with expertise in the worlds of medicine, computer science, phyisics, and business, bring valuable perspectives to any project.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-5 ftco-animate">
+            <div class="block-10">
+              <div class="person-info mb-2">
+                <span class="name">Dr. Ehwerheamuepha</span>
+                <span class="position">Medical/AI Advisor</span>
+              </div>
+              <a href="https://www.linkedin.com/in/louis-ehwerhemuepha-3665854b/"><img src="images/louis.jpeg" alt="" class="img-fluid mb-3"></a>
+              <p>Dr. Ehwerhemuepha's experience encompasses advanced statistical and biostatistical analyses, machine learning, and artificial intelligence (AI) in medicine. He leads the data science program at CHOC Children’s with first, last, and other authorship on applications of electronic health records for improvement in quality of care and as a decision support tools. His work on predicting hospital readmissions and development of clinical interventions has resulted significant drops in the readmission rates of children at CHOC Children’s Hospital in Orange, California. </p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 ftco-animate">
+            <div class="block-10">
+              <div class="person-info mb-2">
+                <span class="name">Greg Tyler</span>
+                <span class="position">Development Lead</span>
+              </div>
+              <img src="images/person_1.jpg" alt="" class="img-fluid mb-3">
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 ftco-animate">
+            <div class="block-10">
+              <div class="person-info mb-2">
+                <span class="name">Andrew Papilion</span>
+                <span class="position">Data Science Lead</span>
+              </div>
+              <img src="images/person_3.jpg" alt="" class="img-fluid mb-3">
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 ftco-animate">
+            <div class="block-10">
+              <div class="person-info mb-2">
+                <span class="name">Oliver Mathias</span>
+                <span class="position">Product/Business Lead</span>
+              </div>
+              <a href="https://olivermathias.com/"><img src="images/oliver.JPG" alt="" class="img-fluid mb-3"></a>
+              <p>As a Computational and Data Science Masters Student with a background in Business Administration, <strong>Oliver Mathias</strong> is well versed in the analysis of problems and the development of solutions from both a business and technological standpoint. His experience includes Machine Learning and Data Science internships at the Chapman Brain Institute and Children's hospital of Orange County respectively. His personal portfolio spans work from numpy based Neural-Net python packages, LSTM data funnels, Self Driving Simulations, and Instagram Bots.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row no-gutters justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Works</span>
+            <h2 class="mb-4">View a few of our past projects to get an idea of the kind of problems we like to tackle</h2>
+            <p>Most of the projects listed below are exploritory endevours we embarked on to test the limits of whats possible in healthcare</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a class="image" style="background-image: url('images/brainseg.png'); " data-scrollax=" properties: { translateY: '-20%'}">
+            </a>
+            <div class="text">
+              <h4 class="subheading">A.I. Tumor Segmentation</h4>
+              <h2 class="heading"><a href="portfolio.html">Applying A.I. to diagnose cancer faster and cheaper</a></h2>
+              <p>By using open source datasets from research institutions around the world, we have created algorithms that can segment brain tumors with similar accuracy to human radiologists but in a more scalable way.</p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a class="image image-2 order-2" style="background-image: url('images/torso.jpg');" data-scrollax=" properties: { translateY: '-20%'}"></a>
+            <div class="text order-1">
+              <h4 class="subheading">Automated Tissue Segmentation</h4>
+              <h2 class="heading"><a href="portfolio.html">Bringing medical visualizations to a whole new level</a></h2>
+              <p>By utilizing custom algorithms and pipelines, we have build a process to automatically segment tissue from MRI and CT scans and 3D print human anatomical models, allowing for improved case visualization and taking the first steps towards bioprinting.</p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a class="image" style="background-image: url('images/image.png'); " data-scrollax=" properties: { translateY: '-20%'}"></a>
+            <div class="text">
+              <h4 class="subheading">Orthopedic Surgeon Aide</h4>
+              <h2 class="heading"><a href="portfolio.html">A visualization for pre-operational planning and implant shaping</a></h2>
+              <p>One of the most exciting uses of 3D printing in the medical field today is for implant shaping and operation planning in orthopedics. By having a 1:1 scale model outside the body, the surgeon can shape implants beforehand, saving time and pain for the patient.</p>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <span><a href="#" class="btn btn-primary btn-outline-white px-5 py-3">Get in touch</a></span>
+          </div>
+        </div>
+      </div>
+        -->
+    </section>
+
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">News</span>
+            <h2>Recent Press</h2>
+            <p>A collection of public articles, papers, and posts diving further into our tech.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="https://news.chapman.edu/2020/02/25/the-future-at-their-fingertips/" class="block-20" style="background-image: url('images/greg.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">Dec, 2019</a></div>
+                </div>
+                <h3 class="heading"><a>"The Future at their Fingertips"</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry" data-aos-delay="100">
+              <a href="https://www.linkedin.com/posts/oliver-mathias_3dprint-coronavirus-covid19-activity-6649370115844509696-yfcV" class="block-20" style="background-image: url('images/spike.jpeg');">
+              </a>
+              <div class="text p-4">
+                <div class="meta mb-3">
+                  <div><a href="#">March, 2020</a></div>
+                </div>
+                <h3 class="heading"><a>Covid-19 Protein Modeling</a></h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry" data-aos-delay="200">
+              <a href="https://issuu.com/chapmanu/docs/19-107811-chapman_magazine_february_2020_issu" class="block-20" style="background-image: url('images/mag.png');">
+              </a>
+              <div class="text p-4">
+                <div class="meta mb-3">
+                  <div><a href="#">Feb, 2020</a></div>
+                </div>
+                <h3 class="heading"><a>"Think Again"</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">New Dimension Medical Research Group</h2>
+              <p>Bringing advanced healthcare Solutions to advanced healthcare problems</p>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="py-2 d-block">Home</a></li>
+                <li><a href="contact.html" class="py-2 d-block">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Contact Information</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Los Angeles, California</a></li>
+                <li><a href="#" class="py-2 d-block">Orange, California</a></li>
+                <li><a href="#" class="py-2 d-block">+1 (310)-460-8616</a></li>
+                <li><a href="#" class="py-2 d-block">mathias@chapman.edu</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/particle.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  </body>
 </html>
